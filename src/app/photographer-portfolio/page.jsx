@@ -11,7 +11,8 @@ const Hero = () => {
                 <span className="text-[#ddf247]">MANDAL</span>
             </h1>
             <h2 className="text-3xl md:text-5xl text-wrap text-center my-4 text-[#f4f4f2]/40">
-                CAPTURING LIFE'S ESSENCE THROUGH LENSE
+                {/* Let&apos;s Connect */}
+                CAPTURING LIFE&apos;S ESSENCE THROUGH LENSE
             </h2>
             <div className="flex flex-wrap gap-x-6 gap-y-6">
                 <div className="w-full md:w-96 relative h-80 overflow-hidden rounded-xl">
@@ -152,7 +153,7 @@ const CapturingMoments = () => {
             <div className="bg-[#f4f4f2] w-full p-12 rounded-3xl">
                 <div>
                     <h1 className="text-[#101010] text-4xl text-center font-bold font-serif">
-                        Capturing Life's Intimate Moments
+                        Capturing Lif&apos;s Intimate Moments
                     </h1>
                     <p className="text-[#101010] text-center my-2 text-md">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
