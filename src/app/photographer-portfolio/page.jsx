@@ -27,7 +27,8 @@ const Hero = () => {
                 <div className="w-1/2 border grow rounded-xl p-6">
                     <div className="flex flex-col justify-between h-full gap-y-4">
                         <h2 className="text-2xl text-[#ddf247]">
-                            50 + <br /> Happy Clients
+                            <span className="font-semibold"> 50 + </span> <br />{" "}
+                            Happy Clients
                         </h2>
                         <p className="pr-10">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -49,7 +50,9 @@ const AboutMe = () => {
         <div className="bg-[#f4f4f2] text-[#101010] w-full py-12 px-12 rounded-3xl">
             <div className="flex flex-col md:flex-row gap-y-8">
                 <div className="w-1/2">
-                    <h1 className=" text-4xl font-serif text-left">About Me</h1>
+                    <h1 className=" text-4xl font-serif text-left font-semibold">
+                        About Me
+                    </h1>
                 </div>
                 <div className="w-full md:w-1/2 text-[#101010]">
                     <p>
@@ -102,7 +105,7 @@ const FeaturedWorks = () => {
     return (
         <div className="p-12">
             <div>
-                <h1 className="text-[#f4f4f2] text-4xl font-serif">
+                <h1 className="text-[#f4f4f2] text-4xl font-serif font-semibold my-8">
                     Featured Works
                 </h1>
             </div>
@@ -214,9 +217,9 @@ const CapturingMoments = () => {
 };
 const Testimonials = () => {
     return (
-        <div className="p-12 w-full flex justify-between">
-            <div className="w-1/2 flex flex-col justify-between">
-                <h1 className="text-[#f4f4f2] text-4xl font-serif">
+        <div className="p-12 w-full flex flex-col md:flex-row justify-between gap-y-4">
+            <div className="w-full md:w-1/2 flex flex-col justify-between gap-y-4">
+                <h1 className="text-[#f4f4f2] text-4xl font-serif font-semibold">
                     Testimonials
                 </h1>
                 <p>
@@ -235,7 +238,7 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            <div className="w-1/3 h-96 relative overflow-hidden">
+            <div className="w-full md:w-1/3  h-96 relative overflow-hidden">
                 <Image
                     src={`https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`}
                     alt="img 1"
@@ -252,7 +255,7 @@ const Projects = () => {
     return (
         <>
             <div className="bg-[#f4f4f2] w-full p-12 rounded-3xl">
-                <h1 className="text-[#101010] text-4xl font-serif my-12">
+                <h1 className="text-[#101010] text-4xl font-serif font-semibold my-12">
                     {" "}
                     Projects{" "}
                 </h1>

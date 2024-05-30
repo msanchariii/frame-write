@@ -43,6 +43,10 @@ function Navbar() {
     );
 }
 
+const Footer = () => {
+    return <div className="w-full min-h-48"></div>;
+};
+
 export default function PhotographerPortfolioLayout({ children }) {
     return (
         <div className="bg-[#101010] px-2 md:px-6">
@@ -51,6 +55,8 @@ export default function PhotographerPortfolioLayout({ children }) {
             <hr className="w-full bg-[#f4f4f2]/20" />
             <main className="bg-[#101010]">{children}</main>
             {/* <NavLink pathName={`Yo`} path={`/`} /> */}
+            <hr className="w-full bg-[#f4f4f2]/20" />
+            <Footer />
         </div>
     );
 }
