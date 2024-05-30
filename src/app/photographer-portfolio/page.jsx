@@ -34,7 +34,7 @@ const Hero = () => {
                             fugiat perferendis adipisci ducimus doloremque!
                         </p>
                         <div className="p-4 border w-44 rounded-full text-center">
-                            Let's Connect
+                            Let&apos;s Connect
                         </div>
                     </div>
                 </div>

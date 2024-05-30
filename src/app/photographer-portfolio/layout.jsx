@@ -37,7 +37,7 @@ function Navbar() {
                 })}
             </div>
             <div className="underline underline-offset-8 decoration-[#ddf247] text-center md:text-right">
-                Let's Connect
+                Let&apos;s Connect
             </div>
         </div>
     );
