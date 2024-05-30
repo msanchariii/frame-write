@@ -15,7 +15,7 @@ const Hero = () => {
                 CAPTURING LIFE&apos;S ESSENCE THROUGH LENSE
             </h2>
             <div className="flex flex-wrap gap-x-6 gap-y-6">
-                <div className="w-full md:w-96 relative h-80 overflow-hidden rounded-xl">
+                <div className="w-full md:w-96 md:mx-auto relative h-80 overflow-hidden rounded-xl">
                     <Image
                         src={`https://images.unsplash.com/photo-1552160793-cbaf3ebcba72?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VuZmxvd2VyfGVufDB8MHwwfHx8MA%3D%3D`}
                         alt={`hero-image`}
@@ -256,11 +256,10 @@ const Projects = () => {
         <>
             <div className="bg-[#f4f4f2] w-full p-12 rounded-3xl">
                 <h1 className="text-[#101010] text-4xl font-serif font-semibold my-12">
-                    {" "}
-                    Projects{" "}
+                    Projects
                 </h1>
                 <div>
-                    <div className="grid grid-cols-3 grid-rows-3  gap-3 text-black ">
+                    <div className="grid grid-cols-2 md:grid-cols-3 grid-rows-3  gap-3 text-black ">
                         <div className="bg-red-200 rounded-md relative overflow-hidden aspect-video">
                             <Image
                                 src={images.projects[0]}
