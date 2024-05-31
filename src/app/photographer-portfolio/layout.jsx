@@ -72,7 +72,7 @@ function Navbar() {
                             </Link>
                         </div>
                     ))}
-                    <div className="underline underline-offset-8 decoration-[#ddf247] text-center mt-4">
+                    <div className="text-[#f4f4f2] underline underline-offset-8 decoration-[#ddf247] text-center mt-4">
                         Let&apos;s Connect
                     </div>
                 </div>

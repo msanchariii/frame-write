@@ -3,11 +3,10 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div className="w-full">
+        <div className="w-full text-[#f4f4f2]">
             {/* Name */}
             <h1 className="text-6xl md:text-8xl text-wrap text-center font-serif my-4">
-                SANCHAR<span className="italic">I</span>
-                {"   "}
+                SANCHAR<span className="italic">I </span>
                 <span className="text-[#ddf247]">MANDAL</span>
             </h1>
             <h2 className="text-3xl md:text-5xl text-wrap text-center my-4 text-[#f4f4f2]/40">
@@ -222,7 +221,7 @@ const Testimonials = () => {
                 <h1 className="text-[#f4f4f2] text-4xl font-serif font-semibold">
                     Testimonials
                 </h1>
-                <p>
+                <p className="text-[#f4f4f2dc]">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Facere delectus ullam modi, quisquam iure commodi dicta nam?
                     Pariatur cupiditate excepturi placeat, exercitationem
@@ -232,7 +231,7 @@ const Testimonials = () => {
                     et. Enim voluptate dignissimos explicabo ipsum? Ullam non
                     quia, ut dicta ab hic praesentium eveniet.
                 </p>
-                <div>
+                <div className="text-[#f4f4f2]">
                     <p className="font-semibold text-xl">John Doe</p>
                     <p>XYZ Company</p>
                 </div>
