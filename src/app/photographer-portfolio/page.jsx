@@ -149,7 +149,7 @@ const FeaturedWorks = () => {
         </div>
     );
 };
-const CapturingMoments = () => {
+export const CapturingMoments = () => {
     return (
         <>
             <div className="bg-[#f4f4f2] w-full p-12 rounded-3xl">

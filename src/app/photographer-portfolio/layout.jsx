@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const links = [
-    { id: 1, pathname: "HOME", path: "/" },
+    { id: 1, pathname: "HOME", path: "" },
     { id: 2, pathname: "ABOUT ME", path: "/about-me" },
     { id: 3, pathname: "FEATURED WORKS", path: "/featured-works" },
     { id: 4, pathname: "PROJECTS", path: "/projects" },
@@ -11,8 +12,17 @@ const links = [
 ];
 
 const NavLink = ({ pathName, path }) => {
+    // const router = useRouter();
+    const thisPathName = usePathname();
+    console.log("Pathname: ", thisPathName);
     return (
-        <div className="rounded-full min-w-20 text-[#f4f4f2da] font-semibold text-sm border border-white py-2 px-3 text-center">
+        <div
+            className={`rounded-full min-w-20 font-semibold text-sm border py-2 px-3 text-center ${
+                thisPathName === `/photographer-portfolio${path}`
+                    ? "bg-[#ddf247] border-[#ddf247] text-black"
+                    : " text-[#f4f4f2da] hover:text-black hover:bg-[#ddf247] hover:border-[#ddf247]  border-white "
+            }`}
+        >
             <Link href={`/photographer-portfolio${path}`}>{pathName}</Link>
         </div>
     );
