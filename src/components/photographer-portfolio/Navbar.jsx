@@ -16,7 +16,7 @@ const NavLink = ({ pathName, path }) => {
     return (
         <div>
             <Link
-                className={`rounded-full min-w-20 font-semibold text-sm border py-2 px-3 text-center ${
+                className={`rounded-full min-w-20 font-semibold text-sm border py-2 px-3 text-center ease-in duration-200 ${
                     thisPathName === `/photographer-portfolio${path}`
                         ? "bg-[#ddf247] border-[#ddf247] text-black"
                         : " text-[#f4f4f2da] hover:text-black hover:bg-[#ddf247] hover:border-[#ddf247]  border-white "
