@@ -7,8 +7,8 @@ const projects = [
         description: "Capturing the serene beauty of sunsets by the ocean.",
         date: "2023-05",
         images: [
-            "https://images.unsplash.com/photo-1516239018-06511759d4c5",
             "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1516239018-06511759d4c5",
             "https://images.unsplash.com/photo-1518085250887-2f903c200fee",
         ],
     },
