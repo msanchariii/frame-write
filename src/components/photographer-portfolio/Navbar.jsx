@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const links = [
     { id: 1, pathname: "HOME", path: "" },
     { id: 2, pathname: "ABOUT ME", path: "/about-me" },
-    { id: 3, pathname: "FEATURED WORKS", path: "/featured-works" },
+    // { id: 3, pathname: "FEATURED WORKS", path: "/featured-works" },
     { id: 4, pathname: "PROJECTS", path: "/projects" },
     { id: 5, pathname: "BLOGS", path: "/blogs" },
 ];
