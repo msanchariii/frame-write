@@ -48,9 +48,12 @@ function Navbar() {
                         />
                     ))}
                 </div>
-                <div className="underline underline-offset-8 decoration-[#ddf247] text-center md:text-right">
+                <Link
+                    href={"/photographer-portfolio/connect"}
+                    className="underline underline-offset-8 decoration-[#ddf247] text-center md:text-right"
+                >
                     Let&apos;s Connect
-                </div>
+                </Link>
             </div>
             {/* Hamburger for mobile */}
             <div className="md:hidden py-8 px-3" onClick={handleToggleNavbar}>
@@ -89,9 +92,12 @@ function Navbar() {
                             </Link>
                         </div>
                     ))}
-                    <div className="text-[#f4f4f2] underline underline-offset-8 decoration-[#ddf247] text-center mt-4">
+                    <Link
+                        href={"/photographer-portfolio/connect"}
+                        className="underline underline-offset-8 decoration-[#ddf247] text-center md:text-right"
+                    >
                         Let&apos;s Connect
-                    </div>
+                    </Link>
                 </div>
             )}
         </div>
