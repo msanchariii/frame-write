@@ -12,6 +12,7 @@ function page() {
                     {projects.map((project) => {
                         return (
                             <ProjectCard
+                                key={project.id}
                                 id={project.id}
                                 title={project.title}
                                 images={project.images}
