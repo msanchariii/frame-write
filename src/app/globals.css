@@ -31,3 +31,10 @@ body {
         text-wrap: balance;
     }
 }
+
+/* @media (min-width: 1280px) {
+  body > * {
+    transform: scale(1.25);
+    transform-origin: top left;
+  }
+} */

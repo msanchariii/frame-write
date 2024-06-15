@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
 const links = [
-    { id: 1, pathname: "HOME", path: "" },
+    { id: 1, pathname: "HOME", path: "/" },
     { id: 2, pathname: "ABOUT ME", path: "/about-me" },
     // { id: 3, pathname: "FEATURED WORKS", path: "/featured-works" },
     { id: 4, pathname: "PROJECTS", path: "/projects" },
@@ -17,11 +17,11 @@ const NavLink = ({ pathName, path }) => {
         <div>
             <Link
                 className={`rounded-full min-w-20 font-semibold text-sm border py-2 px-3 text-center ease-in duration-200 ${
-                    thisPathName === `/photographer-portfolio${path}`
+                    thisPathName === `${path}`
                         ? "bg-[#ddf247] border-[#ddf247] text-black"
                         : " text-[#f4f4f2da] hover:text-black hover:bg-[#ddf247] hover:border-[#ddf247]  border-white "
                 }`}
-                href={`/photographer-portfolio${path}`}
+                href={`${path}`}
             >
                 {pathName}
             </Link>
@@ -49,7 +49,7 @@ function Navbar() {
                     ))}
                 </div>
                 <Link
-                    href={"/photographer-portfolio/connect"}
+                    href={"/connect"}
                     className="underline underline-offset-8 decoration-[#ddf247] text-center md:text-right"
                 >
                     Let&apos;s Connect
@@ -93,7 +93,7 @@ function Navbar() {
                         </div>
                     ))}
                     <Link
-                        href={"/photographer-portfolio/connect"}
+                        href={"/connect"}
                         className="underline underline-offset-8 decoration-[#ddf247] text-center md:text-right"
                     >
                         Let&apos;s Connect

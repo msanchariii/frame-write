@@ -5,7 +5,7 @@ function page() {
     return (
         <div>
             <TopBanner heading={"Let us talk"} />
-            <div className="text-[#101010] bg-[#f4f4f2] min-h-screen p-12 flex flex-col justify-between gap-y-6 rounded-2xl">
+            <div className="text-[#101010] bg-[#f4f4f2] min-h-screen xl:h-auto xl:min-h-96 p-12 flex flex-col justify-between gap-y-6 rounded-2xl">
                 <h1 className="text-center text-4xl font-bold font-serif ">
                     Send Us a Message
                 </h1>
